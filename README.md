@@ -4,7 +4,7 @@ Proyek ini bertujuan untuk melakukan scraping data ulasan, pemrosesan teks (text
 
 ---
 
-## Fitur DAN Alur Kerja Proyek
+## Fitur Dan Alur Kerja Proyek
 
 1. **Data Scraping**: Mengambil ulasan terbaru pengguna aplikasi Wondr by BNI (`id.bni.wondr`) menggunakan library `google-play-scraper`.
 2. **Data Cleaning**: Menghapus kolom yang tidak relevan serta membersihkan baris data yang terduplikasi.
@@ -90,7 +90,7 @@ Proyek ini terbagi menjadi dua tahap utama (dapat dijalankan melalui Jupyter Not
    - Jalankan notebook scraping untuk mengambil ulasan terbaru dari Google Play Store.
    - Hasil scraping akan disimpan secara otomatis ke file `wondr_bni_reviews.csv`.
 
-2. **Preprocessing & Sentiment Analysis (`Notebook 2: Preprocessing & Visualization`)**:
+2. **Sentiment Analysis (`Notebook 2: Preprocessing & Sentiment Analysis`)**:
    - Muat file `wondr_bni_reviews.csv`.
    - Jalankan seluruh sel untuk melakukan preprocessing teks, pelabelan leksikon, serta menampilkan grafik distribusi sentimen.
 
