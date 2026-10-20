@@ -4,7 +4,7 @@ Proyek ini bertujuan untuk melakukan scraping data ulasan, pemrosesan teks (text
 
 ---
 
-## Fitur Dan Alur Kerja Proyek
+## Fitur dan Alur Kerja Proyek
 
 1. **Data Scraping**: Mengambil ulasan terbaru pengguna aplikasi Wondr by BNI (`id.bni.wondr`) menggunakan library `google-play-scraper`.
 2. **Data Cleaning**: Menghapus kolom yang tidak relevan serta membersihkan baris data yang terduplikasi.
